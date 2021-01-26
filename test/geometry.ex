@@ -1,5 +1,5 @@
 defmodule Geometry do
   def rectangle_area(a, b) do
-    a*b
+    a * b
   end
 end

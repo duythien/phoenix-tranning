@@ -6,8 +6,20 @@ defmodule Demo.StoreTest do
   describe "books" do
     alias Demo.Store.Book
 
-    @valid_attrs %{authors: [], description: "some description", isbn: "some isbn", price: 120.5, title: "some title"}
-    @update_attrs %{authors: [], description: "some updated description", isbn: "some updated isbn", price: 456.7, title: "some updated title"}
+    @valid_attrs %{
+      authors: [],
+      description: "some description",
+      isbn: "some isbn",
+      price: 120.5,
+      title: "some title"
+    }
+    @update_attrs %{
+      authors: [],
+      description: "some updated description",
+      isbn: "some updated isbn",
+      price: 456.7,
+      title: "some updated title"
+    }
     @invalid_attrs %{authors: nil, description: nil, isbn: nil, price: nil, title: nil}
 
     def book_fixture(attrs \\ %{}) do
