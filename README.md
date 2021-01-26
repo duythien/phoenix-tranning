@@ -18,3 +18,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Refer
+  
+  ** [REST API with Elixir/Phoenix - A beginner's tutorial.](https://www.dairon.org/2020/07/06/simple-rest-api-with-elixir-phoenix.html)
